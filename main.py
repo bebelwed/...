@@ -63,10 +63,11 @@ async def nuke(ctx, message_count: int = 3):
     await asyncio.gather(*tasks)
 
     # Envoi d'un message de confirmation à l'utilisateur
-    await ctx.send(f"OWNED BY NK6Z | {message_count * 3} messages envoyés dans chaque canal.")
+    await ctx.send(f"OWNED BY BEBELWED | {message_count * 3} messages envoyés dans chaque canal.")
 
 webserver.keep_alive()
 
 bot.run(TOKEN)
+
 
 
